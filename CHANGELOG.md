@@ -5,6 +5,11 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 ## [Unreleased]
+### Changed
+- `https-rustls`, `https-rustls-probe`: Updated rustls from 0.21 to 0.23, and
+  rustls-native-certs, webpki-roots and rustls-webpki to their most recent
+  versions. Note that rustls 0.23 uses aws-lc-rs instead of ring as the default
+  crypto backend.
 
 ## [2.14.1] - 2025-09-03
 ### Fixed
